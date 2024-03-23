@@ -111,8 +111,6 @@ body {
   animation-delay: 0.5s;
 }
 
-
-
 .stats_panel {
   left: 50px !important;
   bottom: 50px !important;
@@ -127,18 +125,10 @@ body {
   display: none;
 }
 
-
 .react-flow__panel.left,
 .react-flow__panel.right {
   filter: invert(0.84);
 }
-
-
-
-
-
-
-
 
 .command-palette .dark\:bg-gray-900 {
   background-color: #222;
@@ -157,26 +147,19 @@ a.command-palette-list-item.block.w-full.text-left.px-3\.5.py-2\.5.rounded-md.ho
   backdrop-filter: blur(0.4rem);
 }
 
-
-
-
 .log-container {
   width: 100%;
   padding: 15px;
 }
-
 
 .log-container > div {
   display: flex;
   flex-direction: column-reverse;
 }
 
-
-
 button {
   cursor: pointer;
 }
-
 
 .appModal {
   position: fixed;
@@ -185,9 +168,7 @@ button {
   z-index: 999;
 }
 
-
 /* App.ts */
-
 
 .newComponentButton {
   opacity: 0;
@@ -222,7 +203,7 @@ button {
   height: 100%;
 }
 .toolbarDivider {
-  flex:1;
+  flex: 1;
 }
 .toolbarTextInfo {
   line-height: 25px;
@@ -230,7 +211,6 @@ button {
   padding-left: 10px;
   padding-right: 10px;
 }
-
 
 /* Actions.tsx */
 
@@ -256,7 +236,6 @@ button {
   margin-top: 0;
 }
 
-
 /* ToolbarRight.tsx */
 
 .toolbarRightBox {
@@ -277,28 +256,21 @@ button {
   height: 100%;
 }
 
-.sectionMiddle>div>div {
+.sectionMiddle > div > div {
   background-color: black !important;
 }
-
-
-
-
-
-
-
-
-
 
 .\[\&\:has\(svg\)\]\:pl-11:has(svg) {
   padding-left: 0.75rem !important;
 }
 
-.rotate{
-  animation: rotate 1.5s linear infinite; 
+.rotate {
+  animation: rotate 1.5s linear infinite;
 }
-@keyframes rotate{
-  to{ transform: rotate(360deg); }
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .model-thumb:hover .model-thumb-label {
@@ -306,13 +278,13 @@ button {
 }
 
 #leva {
-  height: '100%';
+  height: "100%";
   margin: -10px;
 }
 #leva label {
   font-size: 13px;
 }
-#leva>div {
+#leva > div {
   position: relative;
   top: 0px;
   right: 0px;
@@ -323,14 +295,14 @@ button {
   border: none;
   z-index: 9;
 }
-#leva>div>div {
+#leva > div > div {
   width: 100%;
   height: 100%;
   border-radius: 0;
   border: none;
-  overflow-y: unset;
+  overflow-y: auto;
 }
-#leva>div>div>div>div>div:nth-child(1) {
+#leva > div > div > div > div > div:nth-child(1) {
   margin-bottom: 10px;
   font-size: 14px;
   opacity: 0.8;
