@@ -73,7 +73,7 @@ export default function ToolbarRight() {
                     }
                   }}
                 >
-                  <div className="flex flex-row">
+                  <div className="flex flex-row items-center">
                     <Icon name={item.icon} label={item.label}/>
                     <span className="ml-2">{item.label}</span>
                   </div>
